@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left">
+        <div id="logo-container">
+            <img src="camera.png" alt="logo" id="logo-icon">
+            <h1 id="logo-text">AirLive</h1>
+        </div>
+    </div>
+    <div id="right">
+        <p id="text">This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.</p>
+        <p id="line"> You <em>know</em> you want to</p>
+        <form action="">
+            <div id="form-content">
+                <legend>Let's do this!</legend>
+                <div id="inputs">
+                    <div class="input"><label for="first-name">FIRST NAME</label><input type="text" name="first-name" id="first" style="text-transform: capitalize;"></div>
+                    <div class="input"><label for="last-name">LAST NAME</label><input type="text" name="last-name" id="last" style="text-transform: capitalize;"></div>
+                    <div class="input"><label for="email">EMAIL</label><input type="text" name="email" id="email"></div>
+                    <div class="input"><label for="phone">PHONE NUMBER</label><input type="text" name="phone" id="phone"></div>
+                    <div class="input"><label for="password">PASSWORD</label><input type="password" name="password" id="pass"></div>
+                    <div class="input"><label for="confirm">CONFIRM PASSWORD</label><input type="password" name="confirm" id="confirm"></div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log in</a></p>
+    </div>
+</body>
+</html>

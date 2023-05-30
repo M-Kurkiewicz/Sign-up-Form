@@ -95,7 +95,7 @@ body {
     flex-flow: column;
     gap: 20px;
     margin: 0;
-    box-shadow: 0px 3px 40px black;
+    box-shadow: 0px 3px 40px #9276e02f;
     /* border: 1px solid white; */
 }
 
@@ -129,7 +129,7 @@ input {
     /* box-shadow: 0px 1px 5px #E14D2A; */
     /* border: 1px solid #E14D2A; */
     color: #c5c5c5;
-    background: #9276e09a;
+    background: #9276e02f;
     font-family: Roboto;
     font-weight: bold;
     letter-spacing: 1px;

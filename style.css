@@ -24,6 +24,7 @@ body {
 }
 
 #left {
+    position: relative;
     height: 100vh;
     width: 35vw;
     background-image: url(./image.jpg);
@@ -63,6 +64,14 @@ body {
 #logo-icon {
     height: 8vh;
     min-height: 10px;
+}
+
+#credit {
+    position: absolute;
+    color: #9276e067;
+    font-size: 2vh;
+    left: 17%;
+    bottom: 0;
 }
 #text {
     width: 90%;
